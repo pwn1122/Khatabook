@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.customer-his{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.customer-his a{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.history{
+    height: 67vh;
+    position: relative;
+    background-color: rgb(208, 205, 201);
+    overflow-y: scroll;
+    
+}
+
+.start-transactions{
+    background-color: rgb(208, 205, 201);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.customer-input{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.customer-input input{
+  height: 40px;
+  width: 300px;
+  background-color: whitesmoke;
+  margin: 30px 100px;
+  border: 1px solid rgb(144, 144, 144);
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.customer-input input::placeholder{
+    font-size: 15px;
+    color: rgb(33, 32, 32);
+}
+.customer-input button{
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    margin: 30px 100px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.gave{
+    right: 2%;
+    text-align: start;
+    color: rgb(255, 32, 7); 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin:5px auto 10px;
+    width: 90%;
+    
+}
+
+.got{
+    text-align: end;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+}
+
+.msg{
+    color: black;
+}
+#gave-btn{
+    background-color: rgb(255, 32, 7);
+    color: black;
+    width: 150px;
+}
+#got-btn{
+    background-color: green;
+    color: black;
+    width: 150px;
+}
+
+
+
+
